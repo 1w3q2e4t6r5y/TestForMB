@@ -1,0 +1,318 @@
+
+
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+
+
+}
+
+
+
+.content{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+
+
+
+.navbar{
+	position: relative;
+	width: 22%;
+	height: 3.7%;
+	top: 9.2%;
+	left: 1%;
+	z-index: 10000;
+}
+.navbar img{
+	position: relative;
+	left:14.7%;
+bottom: 4%;
+}
+.navbar p{
+	position:relative;
+	left:20%;
+	bottom:78%;
+	width: 100%;
+	height: 100%;
+	
+	font-family: Arial;
+	font-size: 100%;
+	
+	}
+	.nav {
+		position: relative;
+		margin:2.2%;
+		left:17.97%;
+	
+		font-family: Arial;
+		font-size: 100%;
+		color: #6A707B;
+		text-decoration: none;
+	}
+
+
+
+
+.YaaaY{
+
+	position: absolute;
+	left:20%;
+	bottom: 22%;
+	width: 7%;
+}
+
+
+
+.info {
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	top: 34.62%;
+	left:20%;
+	z-index: 10000;
+}
+.info h1{
+	width: 58.8%;
+	margin-bottom: 2.60%;
+	font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 200%;
+line-height: 145%;
+}
+.info p{
+	margin-bottom: 8.6%;
+	width: 58.8%;
+	font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+line-height: 170%;
+color: #6A707B;
+}
+
+
+
+
+.logo{
+	position: absolute;
+	top: 56.2%;
+	left: 28%;
+	width: 100%;
+}
+.logo::after{
+	content: '';
+	width: 55%;
+	height: 1px;
+	background-color:#E3E3E4;
+	position: absolute;
+	bottom: 300%;
+	right: 52.5%;
+}
+.logoImg{
+	position: relative;
+
+	margin-right: 20px;
+	border: 2px solid #E3E3E4;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+	padding: 10px; 
+	border-radius:100%;
+}
+.logoImgf{
+	position: relative;
+
+	margin-right: 20px;
+	border: 2px solid #E3E3E4;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+	padding: 10px; 
+	border-radius:100%;
+}
+.logoImgf img{
+	position: relative;
+	top:5px;
+	margin: 4px;
+}
+.logoImg img{
+	position: relative;
+	top:1px;
+}
+
+
+
+
+
+.img{
+position: absolute;
+width: 70%;
+height: 100%;
+left: 30%;
+bottom: 0%;
+
+
+background-image: url(images/Pineapple.svg);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+
+	
+
+
+	.img{
+		position: relative;
+		right: 50%;
+		width: 1119px;
+		height: 746px;
+		left: -76%;
+		bottom: 41%;
+	
+	}
+	.content{
+		position: relative;
+		width: 89%;
+		height: 50%;
+		left: 5%;
+		top: 27%;
+		z-index: 101111;
+  }
+		
+	
+
+	.navbar{
+		position: absolute;
+		width: 100%;
+		top: 2.2%;
+		right: 7%;
+		height: 3.7%;
+		
+	}
+	.navbar img{
+		
+		left: 8.7%;
+		bottom: 6%;
+		width: 9.6%;
+		height: 124%;
+	}
+	.navbar p{
+		
+		left:20%;
+		bottom:97%;
+		
+	}
+	.navbar span{
+		font-size: 0%;
+	}
+	.nav {
+		
+		margin: 1.2%;
+		left: 13.97%;
+	
+		font-size: 88%;
+
+	}
+
+
+	.YaaaY{
+
+	
+		left: 14%;
+		bottom: 29%;
+		width: 13%;
+	}
+
+
+
+	
+.info {
+	
+	width: 200%;
+	
+	top: 33.62%;
+	left: 14%;
+
+}
+.info h1{
+	width: 58.8%;
+	font-size: 148%;
+
+}
+
+.info p{
+	
+    width: 36.8%;
+    font-size: 83%;
+
+}
+
+
+
+
+
+
+
+
+
+.logo{
+
+	top: 80.2%;
+	left: 21%;
+	
+}
+.logo::after{
+	
+	width: 81%;
+
+	bottom: 194%;
+	right: 25.5%;
+}
+.logoImg{
+	position: relative;
+
+	margin-right: 10px;
+	border: 2px solid #E3E3E4;
+	
+
+}
+.logoImgf{
+	position: relative;
+
+	margin-right: 10px;
+	
+}
+
+
+}

@@ -1,0 +1,377 @@
+
+
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.content{
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+
+
+
+.navbar{
+	position: relative;
+	width: 22%;
+	height: 3.7%;
+	top: 9.2%;
+	left: 1%;
+	z-index: 10000;
+}
+.navbar img{
+	position: relative;
+	left:14.7%;
+bottom: 4%;
+}
+.navbar p{
+position:relative;
+left:20%;
+bottom:78%;
+width: 100%;
+height: 100%;
+
+font-family: Arial;
+font-size: 100%;
+
+}
+.nav {
+	position: relative;
+	margin:2.2%;
+	left:17.97%;
+
+	font-family: Arial;
+	font-size: 100%;
+	color: #6A707B;
+	text-decoration: none;
+}
+
+
+
+
+.info {
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	top: 34.62%;
+	left:20%;
+	z-index: 10000;
+}
+.info h1{
+	width: 58.8%;
+	margin-bottom: 2.60%;
+	font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 200%;
+line-height: 145%;
+}
+.info p{
+	margin-bottom: 8.6%;
+	width: 58.8%;
+	font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+line-height: 170%;
+color: #6A707B;
+}
+.info form{
+	width: 96%;
+	height: 32.4%;
+
+}
+.info input[type="text"]{
+position: relative;
+right: 10%;
+width: 95%;
+height: 100%;
+border-left: 4px solid#4066A5;
+box-sizing: border-box;
+padding-left: 4%;
+}
+.button{
+	width: 20%;
+	height: 101%;
+	background-color: white;
+	position: relative;
+	left: 79%;
+	bottom: 100%;
+}
+.info input[type="checkbox"]{
+	width: 3.4%;
+	height: 34%;
+	position: relative;
+	right: 24%;
+}
+.info img{
+	position: relative;
+	z-index: 10001;
+	width:20%;
+	height:100%;
+}
+.label{
+	position: relative;
+	right: 19%;
+	bottom: 6%;
+	font-size: 111%;
+	font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+line-height: 150%;
+color: #6A707B;
+}
+.label a {
+	color: black;
+}
+
+
+
+
+.error{
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	height: 20%;
+	top: 58%;
+	right: -20%;
+}
+
+
+
+
+
+.logo{
+	position: absolute;
+	top: 74.2%;
+	left: 28%;
+	width: 100%;
+}
+.logo::after{
+	content: '';
+	width: 55%;
+	height: 1px;
+	background-color:#E3E3E4;
+	position: absolute;
+	bottom: 300%;
+	right: 52.5%;
+}
+.logoImg{
+	position: relative;
+
+	margin-right: 20px;
+	border: 2px solid #E3E3E4;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+	padding: 10px; 
+	border-radius:100%;
+}
+.logoImgf{
+	position: relative;
+
+	margin-right: 20px;
+	border: 2px solid #E3E3E4;
+	box-sizing: border-box;
+	background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+	padding: 10px; 
+	border-radius:100%;
+}
+.logoImgf img{
+	position: relative;
+	top:5px;
+	margin: 4px;
+}
+.logoImg img{
+	position: relative;
+	top:1px;
+}
+
+
+
+
+
+.img{
+position: absolute;
+width: 70%;
+height: 100%;
+left: 30%;
+bottom: 0%;
+background-image: url(images/Pineapple.svg);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+
+
+
+
+	.img{
+		position: relative;
+		right: 50%;
+		width: 1119px;
+		height: 746px;
+		left: -76%;
+		bottom: 41%;
+	}
+	.content{
+		position: relative;
+		width: 89%;
+		height: 50%;
+		left: 5%;
+		top: 27%;
+		z-index: 101111;
+		
+	}	
+
+
+
+	.navbar{
+		position: absolute;
+		width: 100%;
+		top: 2.2%;
+		right: 7%;
+
+		height: 3.7%;
+		bottom: 9.2%;
+		z-index: 100001;
+	}
+	.navbar img{
+		left: 8.7%;
+		bottom: 6%;
+		width: 9.6%;
+		height: 124%;
+	}
+	.navbar p{
+		bottom:97%;
+		}
+	.navbar span{
+		font-size: 0%;
+	}
+	.nav {
+		margin: 1.2%;
+		left: 24.97%;
+		font-size: 88%;
+	}
+
+	
+.info {
+	width: 200%;
+	top: 6.62%;
+	left: 10%;
+}
+.info h1{
+	font-size: 148%;
+}
+
+.info p{
+    width: 36.8%;
+    font-size: 83%;
+}
+.info form{
+	position: relative;
+	bottom: 17%;
+}
+
+.info input[type="text"]{
+	position: relative;
+	right: 0%;
+	width: 39%;
+	height: 162%;
+
+}
+
+.button{
+	width: 6%;
+	height: 167%;
+	background-color: white;
+	left: -4%;
+	bottom: -66%;
+}
+.info img{
+	position: relative;
+	left: -25%;
+	bottom: -38%;
+	width: 40%;
+	height: 100%;
+}
+.info input[type="checkbox"]{
+	width: 3.4%;
+	height: 100%;
+	position: relative;
+	right: 44%;
+	top: 241%;
+}
+.label{
+	right: 42%;
+	bottom: -210%;
+	font-size: 99%;
+}
+
+
+
+.error{
+
+
+	height: 20%;
+	top: 57.5%;
+	right: -10%;
+}
+
+
+
+.logo{
+	top: 80.2%;
+	left: 20%;
+}
+.logo::after{
+	width: 81%;
+	bottom: 194%;
+	right: 25.5%;
+}
+.logoImg{
+	margin-right: 10px;
+}
+.logoImgf{
+	margin-right: 10px;
+}
+
+
+}
